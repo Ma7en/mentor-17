@@ -1,0 +1,177 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/pattern-background-desktop.svg");
+    /* background-image: url("../images/bg-pattern-bottom.svg"); */
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 18px;
+}
+
+:root {
+    --color: red;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+
+}
+
+
+
+/* start  */
+.order .container .card {
+    /* width: 375px; */
+    height: fit-content;
+    margin: 50px 0;
+    background-color: #fff;
+    position: relative;
+    left: 50%;
+    border-radius: 10px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* start img */
+.order .container .card .img img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* start body */
+.order .container .card .body {
+    padding: 30px 40px;
+}
+
+
+/* start name */
+.order .container .card .body .name {
+    text-align: center;
+}
+
+.order .container .card .body .name h3 {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.order .container .card .body .name p {
+    line-height: 1.5;
+    color: #7280a7;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+/* start plan */
+.order .container .card .body .plan {
+    margin: 20px 0 30px ;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.order .container .card .body .plan .left {
+    display: flex;
+    align-items: center;
+}
+
+.order .container .card .body .plan .left .name {
+    margin-left: 20px;
+}
+
+.order .container .card .body .plan .left .name h5 {
+    text-transform: capitalize;
+}
+
+.order .container .card .body .plan .left .name p {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.order .container .card .body .plan .right a {
+    color: hsl(245, 75%, 52%);
+    font-size: 16px;
+}
+
+.order .container .card .body .plan .right a:hover {
+    text-decoration: none;
+    opacity: .9;
+}
+
+.order .container .card .body .plan .right a:focus {
+    color: hsl(245, 75%, 52%);
+}
+
+
+/* start pay */
+.order .container .card .body .pay {
+    margin: 20px 0;
+    width: 100%;
+    background-color: #3829e0;
+    box-shadow: 0px 5px 3px 0 #3829e03b;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.order .container .card .body .pay:hover {
+    opacity: .8;
+}
+
+.order .container .card .body .pay a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* start ord */
+.order .container .card .body .ord {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.order .container .card .body .ord a {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+
+.order .container .card .body .ord a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+
